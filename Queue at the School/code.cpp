@@ -18,7 +18,7 @@ int main()
                 output[j + 1] = 'B';
             }
             else
-                output[j] = line[j];
+                continue;
         }
         line = output;
     }
